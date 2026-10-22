@@ -1,0 +1,18 @@
+# problem 4 -HCF program
+number1=int(input("Enter first number:"))
+number2= int(input("Enter second number:"))
+if number1<number2:
+    rem=number1
+else:
+    rem=number2
+    
+hcf=rem
+con1 = number1 % hcf !=0
+con2 = number2 % hcf
+con3 = hcf=hcf-1
+while((con1==True) or (con2 != con3)):
+    print("The highest common factor",hcf)
+
+    
+    
+
